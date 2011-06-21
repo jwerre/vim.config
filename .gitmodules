@@ -1,0 +1,39 @@
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/easy_motion"]
+	path = bundle/easy_motion
+	url = https://github.com/vim-scripts/EasyMotion.git
+[submodule "bundle/sql_complete"]
+	path = bundle/sql_complete
+	url = https://github.com/vim-scripts/SQLComplete.vim.git
+[submodule "bundle/check_syntax"]
+	path = bundle/check_syntax
+	url = https://github.com/jolan/checksyntax_vim.git
+[submodule "bundle/delimit_mate"]
+	path = bundle/delimit_mate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "bundle/greplace"]
+	path = bundle/greplace
+	url = https://github.com/skwp/greplace.vim.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "bundle/zencoding"]
+	path = bundle/zencoding
+	url = https://github.com/mattn/zencoding-vim.git
+[submodule "bundle/transmit"]
+	path = bundle/transmit
+	url = https://github.com/tmallen/transmit-vim.git
+[submodule "bundle/tcomment"]
+	path = bundle/tcomment
+	url = https://github.com/tomtom/tcomment_vim.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/unimpaired"]
+	path = bundle/unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
