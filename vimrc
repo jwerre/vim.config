@@ -89,6 +89,13 @@ nnoremap <NL> i<CR><ESC>
 " Wrapped lines goes down/up to next row, rather than next line in file.
 nnoremap j gj
 nnoremap k gk
+" Shortcut to rapidly toggle `set list`
+nmap <leader>l :set list!<CR> 
+" Ctrl-j/k deletes blank line below/above, and Command-j/k inserts.
+nnoremap <silent><C-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
+nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
+nnoremap <silent><D-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
+nnoremap <silent><D-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
 "-----------------------
 " INSERT MODE MAPS
@@ -142,8 +149,8 @@ abbrev lorem3 Vestibulum et quam neque, sit amet dapibus mi. Nam vehicula nunc a
 "-----------------------
 " SPELLING
 "-----------------------
-set spell               "turn on spell checking
 setlocal spell spelllang=en_us
+set spell               "turn on spell checking
 "   Correct some spelling mistakes    "
 ia teh      the
 ia htis     this
