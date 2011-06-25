@@ -92,8 +92,8 @@ nnoremap k gk
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR> 
 " Ctrl-j/k deletes blank line below/above, and Command-j/k inserts.
-nnoremap <silent><C-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
-nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
+" nnoremap <silent><C-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
+" nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
 nnoremap <silent><D-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
 nnoremap <silent><D-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 

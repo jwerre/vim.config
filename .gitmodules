@@ -7,9 +7,6 @@
 [submodule "bundle/sql_complete"]
 	path = bundle/sql_complete
 	url = https://github.com/vim-scripts/SQLComplete.vim.git
-[submodule "bundle/check_syntax"]
-	path = bundle/check_syntax
-	url = https://github.com/jolan/checksyntax_vim.git
 [submodule "bundle/delimit_mate"]
 	path = bundle/delimit_mate
 	url = https://github.com/Raimondi/delimitMate.git
