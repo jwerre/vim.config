@@ -50,7 +50,7 @@ set cursorline
 set listchars=tab:>.,trail:.,extends:#,nbsp:. " highlight problematic whitespace
 set wrap                "turn on text wrap
 set linebreak           "break lines in between words not in middle  
-
+set clipboard=unnamed
 "-----------------------
 " NORMAL MODE MAPS
 "-----------------------
@@ -96,7 +96,8 @@ nmap <leader>l :set list!<CR>
 " nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
 nnoremap <silent><D-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
 nnoremap <silent><D-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
-
+" 'p' to paste, 'gv' to re-select what was originally selected. 'y' to copy it again
+xnoremap p pgvy
 "-----------------------
 " INSERT MODE MAPS
 "-----------------------
@@ -118,7 +119,7 @@ vmap <C-Down> xp`[V`]
 " COMMAND-LINE MAPS
 "-----------------------
 abbrev ff :! open -a firefox.app %:p<cr>
-abbrev cdlp cd /Work/001_LAUNCHPAD/admin
+abbrev cdlp cd /Work/003_SUPERSQUARED/001_LAUNCHPAD/admin
 abbrev ftplaunch Nread ftp://launch@www.asklaunch.com/public_html
 abbrev ftpclients Nread ftp://launch@www.asklaunch.com/public_html/clients
 
