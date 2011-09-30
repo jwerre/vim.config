@@ -119,7 +119,7 @@ vmap <C-Down> xp`[V`]
 " COMMAND-LINE MAPS
 "-----------------------
 abbrev ff :! open -a firefox.app %:p<cr>
-abbrev cdlp cd /Work/003_SUPERSQUARED/001_LAUNCHPAD/admin
+abbrev cdlp cd /Work/003_SUPERSQUARED/001_LAUNCHPAD/
 abbrev ftplaunch Nread ftp://launch@www.asklaunch.com/public_html
 abbrev ftpclients Nread ftp://launch@www.asklaunch.com/public_html/clients
 
