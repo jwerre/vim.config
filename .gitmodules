@@ -10,9 +10,6 @@
 [submodule "bundle/greplace"]
 	path = bundle/greplace
 	url = https://github.com/skwp/greplace.vim.git
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
-	url = https://github.com/msanders/snipmate.vim.git
 [submodule "bundle/zencoding"]
 	path = bundle/zencoding
 	url = https://github.com/mattn/zencoding-vim.git
