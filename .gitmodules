@@ -4,9 +4,6 @@
 [submodule "bundle/easy_motion"]
 	path = bundle/easy_motion
 	url = https://github.com/vim-scripts/EasyMotion.git
-[submodule "bundle/sql_complete"]
-	path = bundle/sql_complete
-	url = https://github.com/vim-scripts/SQLComplete.vim.git
 [submodule "bundle/delimit_mate"]
 	path = bundle/delimit_mate
 	url = https://github.com/Raimondi/delimitMate.git
@@ -34,6 +31,3 @@
 [submodule "bundle/unimpaired"]
 	path = bundle/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
-[submodule "bundle/omnicomplete"]
-	path = bundle/omnicomplete
-	url = https://github.com/kristoferjoseph/ActionScript-3-Omnicomplete.git
